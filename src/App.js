@@ -1,24 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import Main from "./components/main"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ height: "300px", position: "auto" }}>
+      <Layout fixedHeader>
+        <Header
+          title={
+            <span>
+              <span style={{ color: "#ddd" }}>LZBFGA / </span>
+              <strong>Ticket Predictor</strong>
+            </span>
+          }
+        />
+        <Drawer title="Store">
+          <Navigation>
+            <a href="Camelback">Camelback</a>
+            <a href="Broadway">Broadway</a>
+            <a href="Ina">Ina</a>
+            <a href="Bell">Bell</a>
+            <a href="Chandler">Chandler</a>
+            <a href="Mesa">Mesa</a>
+            <a href="Scottsdale">Scottsdale</a>
+            <a href="PrescottValley">Prescott Valley</a>
+            <a href="Goodyear">Goodyear</a>
+          </Navigation>
+        </Drawer>
+        <Content>
+          <div>
+            <Main />
+          </div>
+        </Content>
+      </Layout>
     </div>
   );
 }

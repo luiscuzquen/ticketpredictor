@@ -1,11 +1,11 @@
-.landing {
+#landing {
   text-align: center;
 }
 
-.App-logo {
+#App-logo {
   height: 10em;
 }
-.room{
+#room{
   flex-shrink: inherit;
   height: 25em
 }

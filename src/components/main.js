@@ -6,7 +6,7 @@ import { Switch, Route} from 'react-router-dom'
 //import Ina from './04Ina';
 //import Bell from './05Bell';
 //import Chandler from './06Chandler';
-import Mesa from './07Mesa';
+import Mesa from './Stores/07Mesa';
 //import Scottsdale from './08Scottsdale';
 //import PrescottValley from './09PrescottValley';
 //import Goodyear from './10Goodyear';

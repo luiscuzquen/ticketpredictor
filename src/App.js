@@ -26,6 +26,7 @@ function App() {
             <a href="Scottsdale">Scottsdale</a>
             <a href="PrescottValley">Prescott Valley</a>
             <a href="Goodyear">Goodyear</a>
+            <a href='/'>Back</a>
           </Navigation>
         </Drawer>
         <Content>

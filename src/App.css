@@ -5,7 +5,19 @@
 #App-logo {
   height: 10em;
 }
-#room{
+#room {
   flex-shrink: inherit;
-  height: 25em
+  height: 25em;
+}
+
+#header {
+  text-align: Left;
+  font-size: 23px;
+  padding: 5px 5px 5px 5px;
+}
+
+#input {
+  text-align: Left;
+  font-size: 13px;
+  padding: 2px 2px 2px 2px;
 }

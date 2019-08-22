@@ -1,28 +1,30 @@
 import React from "react";
 import Landing from "./landingPage";
-import { Switch, Route} from 'react-router-dom'
-//import Camelback from './01Camelback';
-//import Broadway from './03Broadway';
-//import Ina from './04Ina';
-//import Bell from './05Bell';
-//import Chandler from './06Chandler';
-import Mesa from './Stores/07Mesa';
-//import Scottsdale from './08Scottsdale';
-//import PrescottValley from './09PrescottValley';
-//import Goodyear from './10Goodyear';
+import { Switch, Route } from "react-router-dom";
+import '../App.css'
+import Camelback from './Stores/01Camelback';
+import Broadway from './Stores/03Broadway';
+import Ina from './Stores/04Ina';
+import Bell from './Stores/05Bell';
+import Chandler from './Stores/06Chandler';
+import Mesa from "./Stores/07Mesa";
+import Scottsdale from './Stores/08Scottsdale';
+import PrescottValley from './Stores/09PrescottValley';
+import Goodyear from './Stores/10Goodyear';
 
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Landing} />
-    {/* <Route path='/' component={Camelback}/>
-    <Route path='/' component={Broadway}/>
-    <Route path='/' component={Ina}/>
-    <Route path='/' component={Bell}/>
-    <Route path='/' component={Chandler}/> */}
-    <Route path='/' component={Mesa}/>
-    {/* <Route path='/' component={Scottsdale}/>
-    <Route path='/' component={PrescottValley}/>
-    <Route path='/' component={Goodyear}/> */}
-  </Switch> )
+    <Route path='/Camelback' component={Camelback}/>
+    <Route path='/Broadway' component={Broadway}/>
+    <Route path='/Ina' component={Ina}/>
+    <Route path='/Bell' component={Bell}/>
+    <Route path='/Chandler' component={Chandler}/>
+    <Route path="/Mesa" component={Mesa} />
+    <Route path='/Scottsdale' component={Scottsdale}/>
+    <Route path='/prescottvalley' component={PrescottValley}/>
+    <Route path='/goodyear' component={Goodyear}/>
+  </Switch>
+);
 
 export default Main;

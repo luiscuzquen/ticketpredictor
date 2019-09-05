@@ -7,13 +7,14 @@ import Tax from "../Tax";
 import Delivery from "../Delivery";
 import Total from "../Total";
 import GoodName from "../GoodName";
+import Grade from '../test'
 
 class Camelback extends Component {
   state = {};
   render() {
     return (
       <div>
-        <Header />
+        {/* <Header />
         <Input />
         <Input />
         <Input />
@@ -26,7 +27,8 @@ class Camelback extends Component {
         <Tax />
         <Delivery />
         <Total />
-        <GoodName />
+        <GoodName /> */}
+        <Grade/>
       </div>
     );
   }

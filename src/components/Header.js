@@ -5,18 +5,18 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div id="input" class="container">
-        <div id="header" class="row">
-          <div id="header" class="col">
+      <div id="input" className="container">
+        <div id="header" className="row">
+          <div id="header" className="col">
             Items
           </div>
-          <div id="header" class="col">
+          <div id="header" className="col">
             Regular Price
           </div>
-          <div id="header" class="col">
+          <div id="header" className="col">
             Discount
           </div>
-          <div id="header" class="col">
+          <div id="header" className="col">
             Discount Price
           </div>
         </div>   

@@ -186,6 +186,13 @@ class Master extends Component {
   render() {
     return (
       <div>
+      <div id="input" class="container">
+          <div id="input" class="row">
+            <div id="input" class="col">
+              <h3>Mesa Store</h3>
+            </div>
+          </div>
+        </div>
         <div>
           <div id="input" class="container">
             <div id="input" class="row">

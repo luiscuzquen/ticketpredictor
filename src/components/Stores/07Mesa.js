@@ -1,32 +1,19 @@
 import React, { Component } from "react";
-import Header from "../Header";
-import Input from "../Input";
-import Protection from "../Protection";
-import Subtotal from "../Subtotal";
-import Tax from "../Tax";
-import Delivery from "../Delivery";
-import Total from "../Total";
-import GoodName from "../GoodName";
+import Master from "../master";
 
 class Mesa extends Component {
   state = {};
   render() {
     return (
       <div>
-        <Header />
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Protection />
-        <Subtotal />
-        <Tax />
-        <Delivery />
-        <Total />
-        <GoodName />
+        <div id="input" class="container">
+          <div id="input" class="row">
+            <div id="input" class="col">
+              <h3>Mesa Store</h3>
+            </div>
+          </div>
+        </div>
+        <Master />
       </div>
     );
   }

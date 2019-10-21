@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Grade from '../test'
+import Test from "../test";
 
 class Camelback extends Component {
   state = {};
   render() {
     return (
       <div>
-        <Grade/>
+        <Test />
       </div>
     );
   }

@@ -1,9 +1,11 @@
-import React from "react";
+import React, {Component} from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
+import {Link} from "react-router-dom";
 
-function App() {
+class App extends Component {
+  render(){
   return (
     <div style={{ height: "300px", position: "auto" }}>
       <Layout fixedHeader>
@@ -14,18 +16,18 @@ function App() {
             </span>
           }
         />
-        <Drawer title="Store">
+        <Drawer>
           <Navigation>
-            <a href="Camelback" value="Camelback">Camelback</a>
-            <a href="Broadway" value="Broadway">Broadway</a>
-            <a href="Ina" value="Ina">Ina</a>
-            <a href="Bell" value="Bell">Bell</a>
-            <a href="Chandler" value="Chandler">Chandler</a>
-            <a href="Mesa" value="Mesa">Mesa</a>
-            <a href="Scottsdale" value="Scottsdale">Scottsdale</a>
-            <a href="PrescottValley" value="Prescott Valley">Prescott Valley</a>
-            <a href="Goodyear" value="Goodyear">Goodyear</a>
-            <a href="/">Back</a>
+            <Link to="Camelback" value="Camelback">Camelback</Link>
+            <Link to="Broadway" value="Broadway">Broadway></Link>
+            <Link to="Ina" value="Ina">Ina</Link>
+            <Link to="Bell" value="Bell">Bell</Link>
+            <Link to="Chandler" value="Chandler">Chandler</Link>
+            <Link to="Mesa" value="Mesa">Mesa</Link>
+            <Link to="Scottsdale" value="Scottsdale">Scottsdale</Link>
+            <Link to="PrescottValley" value="Prescott Valley">Prescott Valley</Link>
+            <Link to="Goodyear" value="Goodyear">Goodyear</Link>
+            <Link to="/">Back</Link>
           </Navigation>
         </Drawer>
         <Content>
@@ -37,5 +39,7 @@ function App() {
     </div>
   );
 }
+}
+
 
 export default App;

@@ -194,7 +194,7 @@ class Chandler extends Component {
           </div>
         </div>
         <div>
-          <div id="input" class="container">
+        <div id="input" class="container">
             <div id="input" class="row">
               <div id="input" class="col">
                 Client{" "}
@@ -263,7 +263,7 @@ class Chandler extends Component {
               <div class="input-group mb-3">
                 <input
                   onChange={this.percent1Change}
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                 />
@@ -311,7 +311,7 @@ class Chandler extends Component {
               <div class="input-group mb-3">
                 <input
                   onChange={this.percent2Change}
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                 />
@@ -359,7 +359,7 @@ class Chandler extends Component {
               <div class="input-group mb-3">
                 <input
                   onChange={this.percent3Change}
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                 />
@@ -407,7 +407,7 @@ class Chandler extends Component {
               <div class="input-group mb-3">
                 <input
                   onChange={this.percent4Change}
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                 />
@@ -422,7 +422,7 @@ class Chandler extends Component {
                   <span class="input-group-text">$</span>
                 </div>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                   value={this.state.dPrice4}
@@ -455,7 +455,7 @@ class Chandler extends Component {
               <div class="input-group mb-3">
                 <input
                   onChange={this.percent5Change}
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                 />
@@ -470,7 +470,7 @@ class Chandler extends Component {
                   <span class="input-group-text">$</span>
                 </div>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                   value={this.state.dPrice5}
@@ -492,7 +492,7 @@ class Chandler extends Component {
                   <span class="input-group-text">$</span>
                 </div>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                   onChange={this.Price6Change}
@@ -503,7 +503,7 @@ class Chandler extends Component {
               <div class="input-group mb-3">
                 <input
                   onChange={this.percent6Change}
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                 />
@@ -551,7 +551,7 @@ class Chandler extends Component {
               <div class="input-group mb-3">
                 <input
                   onChange={this.percent7Change}
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
                 />
@@ -586,7 +586,7 @@ class Chandler extends Component {
                   <span class="input-group-text">$</span>
                 </div>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   aria-label="Sizing example input"
                   aria-describedby="inputGroup-sizing-default"

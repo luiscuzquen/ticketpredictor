@@ -22,8 +22,8 @@ const Main = () => (
     <Route path='/Chandler' component={Chandler}/>
     <Route path="/Mesa" component={Mesa} />
     <Route path='/Scottsdale' component={Scottsdale}/>
-    <Route path='/prescottvalley' component={PrescottValley}/>
-    <Route path='/goodyear' component={Goodyear}/>
+    <Route path='/Prescottvalley' component={PrescottValley}/>
+    <Route path='/Goodyear' component={Goodyear}/>
   </Switch>
 );
 

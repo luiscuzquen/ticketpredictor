@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
-import {Link} from "react-router-dom";
 
 class App extends Component {
   render(){
@@ -18,16 +17,16 @@ class App extends Component {
         />
         <Drawer>
           <Navigation>
-            <Link to="Camelback" value="Camelback">Camelback</Link>
-            <Link to="Broadway" value="Broadway">Broadway></Link>
-            <Link to="Ina" value="Ina">Ina</Link>
-            <Link to="Bell" value="Bell">Bell</Link>
-            <Link to="Chandler" value="Chandler">Chandler</Link>
-            <Link to="Mesa" value="Mesa">Mesa</Link>
-            <Link to="Scottsdale" value="Scottsdale">Scottsdale</Link>
-            <Link to="PrescottValley" value="Prescott Valley">Prescott Valley</Link>
-            <Link to="Goodyear" value="Goodyear">Goodyear</Link>
-            <Link to="/">Back</Link>
+          <a href="Camelback">Camelback</a>
+            <a href="Broadway">Broadway</a>
+            <a href="Ina">Ina</a>
+            <a href="Bell">Bell</a>
+            <a href="Chandler">Chandler</a>
+            <a href="Mesa">Mesa</a>
+            <a href="Scottsdale">Scottsdale</a>
+            <a href="PrescottValley">Prescott Valley</a>
+            <a href="Goodyear">Goodyear</a>
+            <a href="/">Back</a>
           </Navigation>
         </Drawer>
         <Content>

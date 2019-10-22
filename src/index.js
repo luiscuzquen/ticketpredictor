@@ -8,7 +8,7 @@ import "react-mdl/extra/material.js";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename="/Quote-Sheet">
+  <BrowserRouter basename="/Quote-Sheet/">
     <App />
   </BrowserRouter>,
   document.getElementById("root")

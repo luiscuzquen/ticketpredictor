@@ -6,16 +6,20 @@ class Landing extends Component {
   render() {
     return (
       <div id="landing">
+        <div>
         <img
           id="room"
           src="https://www.la-z-boystore.com/images/purpleRoom.jpg"
           alt="lost"
         />
+        </div>
+        <div>
         <img
           id="App-logo"
           src="https://brandguidelines.la-z-boy.com/downloads/logos/home-furnishing/w_outTag/Jpgs-Pngs/4C-lzbHFD.jpg"
           alt="lost"
         />
+        </div>
         <h2 id='body'>
           This App will allow for fast and accurate calculation of a few items.
         </h2>

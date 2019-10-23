@@ -11,40 +11,40 @@ class App extends Component {
           <Header
             title={
               <span>
-                <span style={{ color: "#ddd" }}>LZBFGA / Quote Sheet</span>
+                <span style={{ color: "#ddd" }}>LZBFGAZ/Quote Sheet</span>
               </span>
             }
           />
           <Drawer>
             <Navigation>
-              <a href="Quote-Sheet/#/Camelback" value="Camelback">
+              <a href="#/Camelback" value="Camelback">
                 Camelback
               </a>
-              <a href="Quote-Sheet/#/Broadway" value="Broadway">
+              <a href="#/Broadway" value="Broadway">
                 Broadway
               </a>
-              <a href="Quote-Sheet/#/Ina" value="Ina">
+              <a href="#/Ina" value="Ina">
                 Ina
               </a>
-              <a href="Quote-Sheet/#/Bell" value="Bell">
+              <a href="#/Bell" value="Bell">
                 Bell
               </a>
-              <a href="Quote-Sheet/#/Chandler" value="Chandler">
+              <a href="#/Chandler" value="Chandler">
                 Chandler
               </a>
-              <a href="Quote-Sheet/#/Mesa" value="Mesa">
+              <a href="#/Mesa" value="Mesa">
                 Mesa
               </a>
-              <a href="Quote-Sheet/#/Scottsdale" value="Scottsdale">
+              <a href="#/Scottsdale" value="Scottsdale">
                 Scottsdale
               </a>
-              <a href="/Quote-Sheet/#/PrescottValley" value="Prescott Valley">
+              <a href="#/PrescottValley" value="Prescott Valley">
                 Prescott Valley
               </a>
-              <a href="Quote-Sheet/#/Goodyear" value="Goodyear">
+              <a href="#/Goodyear" value="Goodyear">
                 Goodyear
               </a>
-              <a href="/">Back</a>
+              <a href="#/">Back</a>
             </Navigation>
           </Drawer>
           <Content>

@@ -30,3 +30,8 @@
 #center {
   align-content: center;
 }
+
+#App-logo-small {
+  height: 5em;
+  align-content: flex-end;
+}

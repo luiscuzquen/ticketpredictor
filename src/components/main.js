@@ -14,7 +14,7 @@ import Goodyear from './Stores/10Goodyear';
 
 const Main = () => (
   <Switch>
-    <Route exact ="/" component={Landing} />
+    <Route exact path ="/" component={Landing} />
     <Route path='/Camelback' component={Camelback}/>
     <Route path='/Broadway' component={Broadway}/>
     <Route path='/Ina' component={Ina}/>

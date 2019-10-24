@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
-
 class App extends Component {
+  hideToggle() {
+    var selectorId = document.querySelector(".mdl-layout");
+    selectorId.MaterialLayout.toggleDrawer();
+  }
+
   render() {
     return (
       <div style={{ height: "300px", position: "auto" }}>
@@ -17,34 +21,40 @@ class App extends Component {
           />
           <Drawer>
             <Navigation>
-              <a href="#/Camelback" value="Camelback">
+              <a href="#/" onClick={() => this.hideToggle()}>
+                <img
+                  id="App-logo-small"
+                  src="https://brandguidelines.la-z-boy.com/downloads/logos/home-furnishing/w_outTag/Jpgs-Pngs/4C-lzbHFD.jpg"
+                  alt="lost"
+                />
+              </a>
+              <a href="#/Camelback" onClick={() => this.hideToggle()}>
                 Camelback
               </a>
-              <a href="#/Broadway" value="Broadway">
+              <a href="#/Broadway" onClick={() => this.hideToggle()}>
                 Broadway
               </a>
-              <a href="#/Ina" value="Ina">
+              <a href="#/Ina" onClick={() => this.hideToggle()}>
                 Ina
               </a>
-              <a href="#/Bell" value="Bell">
+              <a href="#/Bell" onClick={() => this.hideToggle()}>
                 Bell
               </a>
-              <a href="#/Chandler" value="Chandler">
+              <a href="#/Chandler" onClick={() => this.hideToggle()}>
                 Chandler
               </a>
-              <a href="#/Mesa" value="Mesa">
+              <a href="#/Mesa" onClick={() => this.hideToggle()}>
                 Mesa
               </a>
-              <a href="#/Scottsdale" value="Scottsdale">
+              <a href="#/Scottsdale" onClick={() => this.hideToggle()}>
                 Scottsdale
               </a>
-              <a href="#/PrescottValley" value="Prescott Valley">
+              <a href="#/PrescottValley" onClick={() => this.hideToggle()}>
                 Prescott Valley
               </a>
-              <a href="#/Goodyear" value="Goodyear">
+              <a href="#/Goodyear" onClick={() => this.hideToggle()}>
                 Goodyear
               </a>
-              <a href="#/">Back</a>
             </Navigation>
           </Drawer>
           <Content>

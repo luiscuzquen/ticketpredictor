@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-
-
-
+import Logo from '../logo'
 class PrescottValley extends Component {
   constructor(props) {
       super(props);
@@ -310,10 +308,13 @@ class PrescottValley extends Component {
     render() {
       return (
         <div>
-          <div id="input" class="container">
-            <div id="input" class="row">
-              <div id="input" class="col">
-                <h5>{this.state.Store} Store</h5>
+          <div class="container">
+            <div class="row">
+              <div  class="col-7">
+                <h4>{this.state.Store} Store</h4>
+              </div>
+              <div class="col-5">
+                <Logo/>
               </div>
             </div>
           </div>

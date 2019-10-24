@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 class Mesa extends Component {
   constructor(props) {
     super(props);
@@ -187,7 +186,7 @@ class Mesa extends Component {
   render() {
     return (
       <div>
-      <div id="input" class="container">
+        <div id="input" class="container">
           <div id="input" class="row">
             <div id="input" class="col">
               <h3>Mesa Store</h3>
@@ -195,7 +194,7 @@ class Mesa extends Component {
           </div>
         </div>
         <div>
-        <div id="input" class="container">
+          <div id="input" class="container">
             <div id="input" class="row">
               <div id="input" class="col">
                 Client{" "}
@@ -209,7 +208,7 @@ class Mesa extends Component {
                 />
               </div>
               <div id="input" class="col">
-                Sales Asscociate
+                Sales Associate
               </div>
               <div id="input" class="col">
                 <div class="md-form">
@@ -893,7 +892,7 @@ class Mesa extends Component {
         <div id="input" class="container">
           <div id="input" class="row">
             <div id="input" class="col">
-              Good Trough
+            Sales Quote Good Until
             </div>
             <div id="input" class="col">
               <input

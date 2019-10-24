@@ -208,7 +208,7 @@ class Ina extends Component {
                 />
               </div>
               <div id="input" class="col">
-                Sales Asscociate
+                Sales Associate
               </div>
               <div id="input" class="col">
                 <div class="md-form">
@@ -892,7 +892,7 @@ class Ina extends Component {
         <div id="input" class="container">
           <div id="input" class="row">
             <div id="input" class="col">
-              Good Trough
+            Sales Quote Good Until
             </div>
             <div id="input" class="col">
               <input

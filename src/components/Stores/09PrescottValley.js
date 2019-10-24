@@ -4,7 +4,6 @@ import React, { Component } from "react";
 
 class PrescottValley extends Component {
   constructor(props) {
-    constructor(props);
       super(props);
       this.state = {
         rPrice1: 0,

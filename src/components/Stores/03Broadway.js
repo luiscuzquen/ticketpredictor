@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class Broadway extends Component {
   constructor(props) {
-    constructor(props);
       super(props);
       this.state = {
         rPrice1: 0,

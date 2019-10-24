@@ -3,7 +3,6 @@ import React, { Component } from "react";
 
 class Scottsdale extends Component {
   constructor(props) {
-    constructor(props);
       super(props);
       this.state = {
         rPrice1: 0,

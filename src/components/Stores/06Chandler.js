@@ -36,7 +36,7 @@ class Chandler extends Component {
         rProtection: 0,
         rSubtotal: 0,
         rDelivery: 199,
-        tax: 0.072,
+        tax: 0.078,
         Store: "Chandler",
         dProtection: 0,
         dDelivery: 0,

@@ -36,7 +36,7 @@ class Mesa extends Component {
       rProtection: 0,
       rSubtotal: 0,
       rDelivery: 199,
-      tax: 0.0803,
+      tax: 0.083,
       Store: "Mesa",
       dProtection: 0,
       dDelivery: 0,

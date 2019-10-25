@@ -11,14 +11,14 @@
 }
 
 #header {
-  text-align: left;
-  font-size: 18px;
-  padding: 5px 5px 5px 5px
+  text-align: center;
+  font-size: 15px;
+  padding: 2px 2px 2px 2px
 }
 
 #input {
-  text-align: Left;
-  font-size: 18px
+  text-align: left;
+  font-size: 12px;
 }
 
 #Savings {
@@ -32,6 +32,6 @@
 }
 
 #App-logo-small {
-  height: 5em;
+  height: 4em;
   align-content: flex-end;
 }

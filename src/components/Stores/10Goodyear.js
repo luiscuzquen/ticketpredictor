@@ -312,7 +312,7 @@ class Goodyear extends Component {
           <div class="container">
             <div class="row">
               <div  class="col-7">
-                <h4>{this.state.Store} Store</h4>
+                <h5>{this.state.Store} Store</h5>
               </div>
               <div class="col-5">
                 <Logo/>
@@ -333,10 +333,32 @@ class Goodyear extends Component {
                     aria-describedby="inputGroup-sizing-default"
                   />
                 </div>
-                <div id="input" class="col-3">
+                <div id="input" class="col-2">
+                  Phone Number:
+                </div>
+                <div id="input" class="col-4">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default"
+                  />
+                </div>
+                <div id="input" class="col-1">
+                  Email:
+                </div>
+                <div id="input" class="col-5">
+                  <input
+                    type="email"
+                    class="form-control"
+                    aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default"
+                  />
+                </div>
+                <div id="input" class="col-2">
                   Sales Associate
                 </div>
-                <div id="input" class="col-3">
+                <div id="input" class="col-4">
                   <div class="md-form">
                     <input
                       type="text"
@@ -1129,5 +1151,4 @@ class Goodyear extends Component {
       );
     }
   }
-
 export default Goodyear;

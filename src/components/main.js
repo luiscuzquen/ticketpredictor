@@ -11,6 +11,9 @@ import Mesa from "./Stores/07Mesa";
 import Scottsdale from './Stores/08Scottsdale';
 import PrescottValley from './Stores/09PrescottValley';
 import Goodyear from './Stores/10Goodyear';
+import Reno from './Stores/298Reno';
+import Riverdale from './Stores/353Riverdale';
+import Draper from './Stores/354Draper';
 
 const Main = () => (
   <Switch>
@@ -24,6 +27,9 @@ const Main = () => (
     <Route path='/Scottsdale' component={Scottsdale}/>
     <Route path='/Prescottvalley' component={PrescottValley}/>
     <Route path='/Goodyear' component={Goodyear}/>
+    <Route path='/Reno' component={Reno}/>
+    <Route path='/Riverdale' component={Riverdale}/>
+    <Route path='/Draper' component={Draper}/>
   </Switch>
 );
 

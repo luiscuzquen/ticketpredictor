@@ -55,6 +55,15 @@ class App extends Component {
               <a href="#/Goodyear" onClick={() => this.hideToggle()}>
                 Goodyear
               </a>
+              <a href="#/Reno" onClick={() => this.hideToggle()}>
+                Reno
+              </a>
+              <a href="#/Riverdale" onClick={() => this.hideToggle()}>
+                Riverdale
+              </a>
+              <a href="#/Draper" onClick={() => this.hideToggle()}>
+                Draper
+              </a>
             </Navigation>
           </Drawer>
           <Content>

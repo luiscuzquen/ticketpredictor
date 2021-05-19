@@ -15,7 +15,7 @@ class App extends Component {
           <Header
             title={
               <span>
-                <span style={{ color: "#ddd" }}>LZBFGAZ/Quote Sheet</span>
+                <span style={{ color: "#ddd" }}>Quote Sheet</span>
               </span>
             }
           />
@@ -24,7 +24,7 @@ class App extends Component {
               <a href="#/" onClick={() => this.hideToggle()}>
                 <img
                   id="App-logo-small"
-                  src="https://brandguidelines.la-z-boy.com/downloads/logos/home-furnishing/w_outTag/Jpgs-Pngs/4C-lzbHFD.jpg"
+                  src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
                   alt="lost"
                 />
               </a>
